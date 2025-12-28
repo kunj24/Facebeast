@@ -8,7 +8,7 @@
 > **Truth From Facial Expressions With Deep Learning**  
 > A CNN-based deep learning system for real-time emotion detection from facial expressions
 
-**Author:** Meryem Özlem AYDOĞAN  
+**Author:** Kunj Mungalpara  
 **Project:** SEM 4 SGP-2
 
 ---
@@ -87,8 +87,8 @@ The project uses computer vision algorithms for face detection and deep learning
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/yourusername/real_time_facial_emotion_detection.git
-cd real_time_facial_emotion_detection
+git clone https://github.com/kunj24/facebeats.git
+cd facebeats
 ```
 
 ### Step 2: Create Virtual Environment (Recommended)
@@ -259,18 +259,11 @@ real_time_facial_emotion_detection/
 ├── app.py                          # Streamlit web interface
 ├── gradioo.py                      # Gradio interactive UI
 ├── main.py                         # OpenCV minimal demo
-├── model.h5                        # Trained CNN model
-├── haarcascade_frontalface_default.xml  # Face detector
 ├── graph.py                        # Visualization utilities
+├── model.h5                        # Trained CNN model
 ├── requirements.txt                # Python dependencies
 ├── README.md                       # Project documentation
-│
-├── train1/                         # Training scripts
-│   ├── canli_frame_duygu.ipynb    # Live frame emotion training
-│   └── haarcascade_frontalface_default.xml
-│
-├── emotion-classification-cnn-using-keras.ipynb  # Model training notebook
-└── referances/                     # Reference materials
+└── emotion-classification-cnn-using-keras.ipynb  # Model training notebook
 
 ```
 
@@ -335,10 +328,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📧 Contact
 
-**Meryem Özlem AYDOĞAN**
+**Kunj Mungalpara**
 
-- GitHub: [@meryemozlem](https://github.com/meryemozlem)
-- Project Link: [Real-Time Facial Emotion Detection](https://github.com/meryemozlem/real_time_facial_emotion_detection)
+- GitHub: [@kunj24](https://github.com/kunj24)
+- Project Link: [FaceBeats](https://github.com/kunj24/facebeats)
 
 ---
 
@@ -378,7 +371,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 **⭐ If you found this project helpful, please give it a star! ⭐**
 
-Made with ❤️ by Meryem Özlem AYDOĞAN
+Made with ❤️ by Kunj Mungalpara
 
 </div>
 
