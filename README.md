@@ -62,23 +62,7 @@ The project uses computer vision algorithms for face detection and deep learning
 
 ---
 
-## 📸 Demo & Screenshots
-
-### System in Action
-![Emotion Detection Demo 1](https://github.com/meryemozlem/real_time_facial_emotion_detection/assets/82104183/f560dbaa-2adb-4e6d-8541-1549dc06d64b)
-![Emotion Detection Demo 2](https://github.com/meryemozlem/real_time_facial_emotion_detection/assets/82104183/b22230dd-e68c-4ba4-b43c-efc1a7a48660)
-
-### Real-time Analysis
-![Real-time Detection 1](https://github.com/meryemozlem/real_time_facial_emotion_detection/assets/82104183/d885fb4f-0ef9-4439-9b6f-a485408b4ab2)
-![Real-time Detection 2](https://github.com/meryemozlem/real_time_facial_emotion_detection/assets/82104183/4787e6f7-1c60-4fea-ace5-f6d5e4d04ebb)
-
-### Interface Screenshots
-![Results Visualization 1](https://github.com/meryemozlem/real_time_facial_emotion_detection/assets/82104183/bcb8dac7-2ddc-4f8c-b789-d985dc287257)
-![Results Visualization 2](https://github.com/meryemozlem/real_time_facial_emotion_detection/assets/82104183/8492315d-48a1-479f-977e-477ad0860de6)
-
----
-
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 - Python 3.8 or higher
