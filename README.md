@@ -64,10 +64,10 @@ The project uses computer vision algorithms for face detection and deep learning
 ## 📸 Demo & Screenshots
 
 ### Gradio Web Interface - Webcam Analysis
-![Webcam Analysis Interface](https://github.com/user-attachments/assets/8c8e8f8e-8e5e-4f5e-9c5e-8c8e8f8e8e5e)
+![Webcam Analysis Interface](https://github.com/user-attachments/assets/YOUR_WEBCAM_IMAGE_URL)
 
 ### Gradio Web Interface - Image Analysis
-![Image Analysis with Happy Emotion Detection](https://github.com/user-attachments/assets/9c9e9f9e-9e5e-4f5e-9c5e-9c9e9f9e9e5e)
+![Image Analysis with Happy Emotion Detection](https://github.com/user-attachments/assets/YOUR_IMAGE_ANALYSIS_URL)
 
 ---
 ##  Installation
