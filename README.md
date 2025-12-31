@@ -37,10 +37,10 @@ The project uses computer vision algorithms for face detection and deep learning
 
 ### 🌟 Key Highlights
 - **Real-time emotion detection** from webcam or video streams
-- **Multiple interfaces**: Streamlit web app and Gradio UI
+- **Multiple interfaces**: Gradio web UI and OpenCV demo
 - **Music playlist recommendation** based on detected emotions
 - **High accuracy** model trained on 35,887 facial expression images
-- **Seven emotion categories**: Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral
+- **Six emotion categories**: Angry, Disgust, Fear, Happy, Sad, Surprise
 
 ---
 
@@ -52,8 +52,7 @@ The project uses computer vision algorithms for face detection and deep learning
 - **Batch Processing**: Aggregate emotion predictions over multiple frames
 
 ### 🎨 User Interfaces
-- **Streamlit App** (`app.py`): Clean, modern web interface with image upload and webcam support
-- **Gradio Interface** (`gradioo.py`): Interactive UI with tabs for webcam and image analysis
+- **Gradio Interface** (`gradioo.py`): Interactive web UI with tabs for webcam and image analysis
 - **OpenCV Demo** (`main.py`): Lightweight demonstration with playlist integration
 
 ### 🎵 Smart Features
@@ -74,7 +73,6 @@ The project uses computer vision algorithms for face detection and deep learning
 ![Real-time Detection 2](https://github.com/meryemozlem/real_time_facial_emotion_detection/assets/82104183/4787e6f7-1c60-4fea-ace5-f6d5e4d04ebb)
 
 ### Interface Screenshots
-![Streamlit Interface](https://github.com/meryemozlem/real_time_facial_emotion_detection/assets/82104183/0e1a1911-2a6c-4e11-8672-b925a7f60399)
 ![Results Visualization 1](https://github.com/meryemozlem/real_time_facial_emotion_detection/assets/82104183/bcb8dac7-2ddc-4f8c-b789-d985dc287257)
 ![Results Visualization 2](https://github.com/meryemozlem/real_time_facial_emotion_detection/assets/82104183/8492315d-48a1-479f-977e-477ad0860de6)
 
@@ -116,18 +114,7 @@ python -c "import tensorflow as tf; print('TensorFlow version:', tf.__version__)
 
 ## 💻 Usage
 
-### Option 1: Streamlit Web App (Recommended)
-```bash
-streamlit run app.py
-```
-Then open your browser to `http://localhost:8501`
-
-**Features:**
-- Upload images for emotion analysis
-- Enable webcam for real-time detection
-- Aggregates last 20 frames for stable predictions
-
-### Option 2: Gradio Interface
+### Option 1: Gradio Interface (Recommended)
 ```bash
 python gradioo.py
 ```
@@ -138,7 +125,7 @@ Access the interface at `http://localhost:7860`
 - Interactive controls
 - Automatic music playlist recommendations
 
-### Option 3: OpenCV Demo
+### Option 2: OpenCV Demo
 ```bash
 python main.py
 ```
@@ -165,7 +152,6 @@ python main.py
 | Happy | 7,164 | 20.0% |
 | Sad | 4,938 | 13.8% |
 | Fear | 4,103 | 11.4% |
-| Neutral | 4,982 | 13.9% |
 | Angry | 3,993 | 11.1% |
 | Surprise | 3,205 | 8.9% |
 | Disgust | 436 | 1.2% |
@@ -182,7 +168,7 @@ The emotion classification model uses a deep CNN architecture optimized for faci
 - **Pooling Layers**: Max pooling for feature reduction
 - **Dropout Layers**: Regularization to prevent overfitting
 - **Dense Layers**: Fully connected layers for classification
-- **Output Layer**: 7 neurons with softmax activation (7 emotion classes)
+- **Output Layer**: 6 neurons with softmax activation (6 emotion classes)
 
 ### Model Performance
 - **Training Accuracy**: ~78.9%
@@ -234,7 +220,7 @@ The emotion classification model uses a deep CNN architecture optimized for faci
 ## 📈 Results
 
 ### Performance Metrics
-- Successfully classifies 7 distinct emotional states
+- Successfully classifies 6 distinct emotional states
 - Real-time processing with minimal latency
 - Robust face detection using Haar Cascade classifier
 - Stable predictions through frame aggregation
@@ -258,7 +244,6 @@ This project builds upon established research in emotion detection:
 ```
 real_time_facial_emotion_detection/
 │
-├── app.py                          # Streamlit web interface
 ├── gradioo.py                      # Gradio interactive UI
 ├── main.py                         # OpenCV minimal demo
 ├── graph.py                        # Visualization utilities
@@ -276,7 +261,6 @@ real_time_facial_emotion_detection/
 - **Keras** (3.8.0): High-level neural networks API
 - **OpenCV** (cv2): Computer vision and image processing
 - **NumPy**: Numerical computations
-- **Streamlit**: Web app framework
 - **Gradio**: Interactive ML interfaces
 
 ### Additional Requirements
@@ -339,14 +323,14 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ### ✨ Latest Changes
 - **Repository migrated**: Moved to new FaceBeast repository
-- **Cleaned up codebase**: Removed legacy notebook and temporary files
+- **Cleaned up codebase**: Removed legacy files and streamlined to essential components
 - **Enhanced documentation**: Complete README overhaul with modern formatting
-- **Streamlined structure**: Three main entry points for different use cases
+- **Streamlined structure**: Two main entry points for different use cases
 - **Optimized model**: 19MB trained model with 78.9%+ accuracy
 
 ### 🎯 Active Features
 - Real-time emotion detection with high accuracy
-- Multiple UI options (Streamlit, Gradio, OpenCV)
+- Multiple UI options (Gradio, OpenCV)
 - Emotion-based music playlist recommendations
 - Aggregated predictions for stable results
 - Support for both webcam and image upload
