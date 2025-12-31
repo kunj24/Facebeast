@@ -61,7 +61,15 @@ The project uses computer vision algorithms for face detection and deep learning
 - **Face Detection**: Uses Haar Cascade classifier for accurate face localization
 
 ---
+## 📸 Demo & Screenshots
 
+### Gradio Web Interface - Webcam Analysis
+![Webcam Analysis Interface](https://github.com/user-attachments/assets/8c8e8f8e-8e5e-4f5e-9c5e-8c8e8f8e8e5e)
+
+### Gradio Web Interface - Image Analysis
+![Image Analysis with Happy Emotion Detection](https://github.com/user-attachments/assets/9c9e9f9e-9e5e-4f5e-9c5e-9c9e9f9e9e5e)
+
+---
 ##  Installation
 
 ### Prerequisites
